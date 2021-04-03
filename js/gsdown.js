@@ -1,3 +1,7 @@
+ var gsurl2='';
+ var gsurl4=''; 
+ var gsurl3='';
+
 
 /*rjdownload(2)*/
 function js_gsdown(){
