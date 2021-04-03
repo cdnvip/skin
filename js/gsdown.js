@@ -1,7 +1,3 @@
- var gsurl2='com/down/';
- var gsurl4='.exe'; 
- var gsurl3='://v1.cdn.';
-
 
 /*rjdownload(2)*/
 function js_gsdown(){
