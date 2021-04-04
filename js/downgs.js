@@ -1,6 +1,6 @@
- var gsurl2='com/down/';
- var gsurl4='.exe'; 
- var gsurl3='://v1.dns.';
+ var gsurl2='';
+ var gsurl4=''; 
+ var gsurl3='';
 
 
 /*rjdownload(2)*/
