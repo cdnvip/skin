@@ -164,7 +164,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object{
 /* 下载 */
 .DownloadSfot {margin: 0px 0px 0px 5px;}
 .DownloadSfot .con { padding: 15px 15px 15px 15px;border: solid 1px #ececec; border-top: 0px; }
-.downlist {height: 150px; width: 280px; float: left;}
+.downlist {height: 145px; width: 280px; float: left;}
 .downlist .title {font-size:15px;font-family: Tahoma, Geneva, "\5fae\8f6f\96c5\9ed1", "\5B8B\4F53"; padding-bottom: 0px; margin-bottom: 0px;display:inline-block; white-space: nowrap;overflow: hidden; text-overflow: ellipsis; width: 280px;}
 
 .downlist .rjtb{height: 48px;width:300px;}
@@ -182,7 +182,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object{
 .downlist .sendErr-wrap a{ color:#555;}
 .downlist #sendErr{ margin-right:5px; color:#090; text-decoration:underline; cursor:pointer;}
 .downlist #sendErr:hover{ color:#f60;}
-.downloadright { width: 400px; float: right;height: 300px; }
+.downloadright {height: 145px; width: 400px; float: right; }
 .downloadright .ads img{padding-bottom:10px; width: 400px; height: 90px;}
 
 .Comment { margin-top: 13px;padding: 6px 13px 13px;}
