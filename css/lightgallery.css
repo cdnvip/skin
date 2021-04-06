@@ -232,7 +232,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object{
 .downlist .list li a.c_down,.downlist .gs_list li span.xz_down,.downlist .gs_list dd span.xza_down,.downlist .gadat_list dd span.xza_down,.downlist .dbbnt_list dd span.xza_down{padding-left: 32px;height:28px;width: 90%;line-height: 28px;display: block;background: #f90;margin: 4px 0 4px 0;margin-right: 3px;background-image: url("../images/c_down.png") !important;background-position: 8px center;background-repeat: no-repeat;font-size:13px;color: #fff;border-radius: 4px;font-family: arial;cursor:pointer;}
 .downlist .list li a,.downlist .gs_list li a,.downlist .gs_list li span,.downlist .gs_list dd span,.downlist .gadat_list dd span,.downlist .dbbnt_list dd span{padding-left: 32px;height: 28px;line-height: 28px;display: block;background-image: url("../images/down2.png");background-position: 5px center;background-repeat: no-repeat;font-size:13px;cursor:pointer;}
 .downlist .pt_list li a {padding-left: 32px;height: 28px;line-height: 28px;display: block;background-image: url("../images/down.png");background-position: 5px center;background-repeat: no-repeat;font-size:13px;color:#555; cursor:pointer;}
-.downlist .pt_list li a:hover{color: #21b47c;}
+.downlist .pt_list li a:hover{color: #0084ff;}
 .downlist .list li a.c_down:hover,.downlist .gs_list li span.xz_down:hover,.downlist .gs_list dd span.xza_down:hover,.downlist .gadat_list dd span.xza_down:hover,.downlist .dbbnt_list dd span.xza_down:hover{background-color: #f70;}
 
 .btn a:hover{color:#ffffff;}
