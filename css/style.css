@@ -733,9 +733,12 @@ ul.msg li.msgarticle{margin-left:42px;padding-top:0}
 /*修改不同视口下公共类属性的值*/
 @media screen and (max-width:1200px){
 .mb{margin-bottom:10px}
-.article-list .content{margin-left:0px;color:#888}
+.article-list .content{margin-left:10px;color:#888}
 .article-list .content .title{font-size:20px;font-weight:400}
 .article-list .content i.iconfont{padding-right:5px}
+.article-list .content2{margin-left:0px;color:#888}
+.article-list .content2 .title{font-size:20px;font-weight:400}
+.article-list .content2 i.iconfont{padding-right:5px}
 .m-multi-ellipsis{position:relative;line-height:1.4em!important;height:1.6em!important;overflow:hidden}
 .m-multi-ellipsis:after{content:"";font-weight:700;position:absolute;bottom:0;right:0;padding-left:20px;background:-webkit-linear-gradient(left,transparent,#fff 62%);background:-o-linear-gradient(right,transparent,#fff 62%);background:-moz-linear-gradient(right,transparent,#fff 62%);background:linear-gradient(to right,transparent,#fff 62%)}
 }/*不同视口下对html的显隐*/
