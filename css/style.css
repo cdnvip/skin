@@ -60,21 +60,7 @@ a:hover{color:#0084ff}
 .multi-ellipsis:after{content:"";font-weight:700;position:absolute;bottom:0;right:0;padding-left:20px;background:-webkit-linear-gradient(left,transparent,#fff 62%);background:-o-linear-gradient(right,transparent,#fff 62%);background:-moz-linear-gradient(right,transparent,#fff 62%);background:linear-gradient(to right,transparent,#fff 62%)}
 /*hover时提升按钮颜色明度*/
 .brightness:hover{-webkit-filter:brightness(1.2);filter:brightness(1.2);-webkit-transition:all ease .4s;-moz-transition:all ease .4s;-ms-transition:all ease .4s;-o-transition:all ease .4s;transition:all ease .4s}
-/*修改不同视口下公共类属性的值*/
-@media screen and (max-width:1200px){.mb{margin-bottom:10px}
-.article-list .content{margin-left:0px;color:#888}
-.article-list .content .title{font-size:20px;font-weight:400}
-.article-list .content i.iconfont{padding-right:5px}
-.m-multi-ellipsis{position:relative;line-height:1.4em!important;height:2.8em!important;overflow:hidden}
-.m-multi-ellipsis:after{content:"";font-weight:700;position:absolute;bottom:0;right:0;padding-left:20px;background:-webkit-linear-gradient(left,transparent,#fff 62%);background:-o-linear-gradient(right,transparent,#fff 62%);background:-moz-linear-gradient(right,transparent,#fff 62%);background:linear-gradient(to right,transparent,#fff 62%)}
-}/*不同视口下对html的显隐*/
-.hidden{display:none}
-@media screen and (max-width:1200px){.hidden-sm-md-lg{display:none!important}
-}@media screen and (max-width:768px){.hidden-sm{display:none!important}
-}@media screen and (min-width:769px) and (max-width:992px){.hidden-md{display:none!important}
-}@media screen and (min-width:993px) and (max-width:1200px){.hidden-lg{display:none!important}
-}@media screen and (min-width:1201px){.hidden-xl{display:none!important}
-}/*========标题栏组件样式========*/
+/*========标题栏组件样式========*/
 .flink,.full-post,.related-art,.widget,#left_1,#left_2,#left_3,#middle_1,#middle_2,#full-post,.related-item,.comment-list,.comment-submit{padding:1.5em}
 .c-title{font-size:18px;padding-bottom:.5em;margin-top:-.5em;position:relative;padding-left:16px}
 .c-title:after{content:"#";color:#0084ff;opacity:.7;left:0;width:5px;height:20px;top:0;position:absolute;-webkit-transition:.5s;-moz-transition:.5s;-ms-transition:.5s;-o-transition:.5s;transition:.5s}
@@ -744,6 +730,22 @@ ul.msg li.msgarticle{margin-left:42px;padding-top:0}
 .level span.l3{width:60% !important}
 .level span.l4{width:80% !important}
 .level span.l5{width:100% !important}
+/*修改不同视口下公共类属性的值*/
+@media screen and (max-width:1200px){
+.mb{margin-bottom:10px}
+.article-list .content{margin-left:0px;color:#888}
+.article-list .content .title{font-size:20px;font-weight:400}
+.article-list .content i.iconfont{padding-right:5px}
+.m-multi-ellipsis{position:relative;line-height:1.4em!important;height:1.6em!important;overflow:hidden}
+.m-multi-ellipsis:after{content:"";font-weight:700;position:absolute;bottom:0;right:0;padding-left:20px;background:-webkit-linear-gradient(left,transparent,#fff 62%);background:-o-linear-gradient(right,transparent,#fff 62%);background:-moz-linear-gradient(right,transparent,#fff 62%);background:linear-gradient(to right,transparent,#fff 62%)}
+}/*不同视口下对html的显隐*/
+.hidden{display:none}
+@media screen and (max-width:1200px){.hidden-sm-md-lg{display:none!important}
+}@media screen and (max-width:768px){.hidden-sm{display:none!important}
+}@media screen and (min-width:769px) and (max-width:992px){.hidden-md{display:none!important}
+}@media screen and (min-width:993px) and (max-width:1200px){.hidden-lg{display:none!important}
+}@media screen and (min-width:1201px){.hidden-xl{display:none!important}
+}
 /* 2021 */
 a:hover,.c-title::after,.pc-nav .active,.pc-nav .sub-nav a:hover,#aside_hot .list-1,#aside_hot .list-2,#aside_hot .list-3,.recommend-b .category,.full-post .read-more,.flink a.iconfont:hover,.thumbs-btn,#cancel-reply,.art-content a,#tbCalendar a,.table_card .active,.table_card .tab li:hover,.footer a:hover,.app-list .download,.commentname a,.comment-at{color:#}
 .recommend-b .category,.full-post .read-more,.thumbs-btn,.art-content .tags:hover,#divCatalog li a:hover,#divContorPanel .cp-login a:hover,#divContorPanel .cp-vrs a:hover,.app-list .download:hover,.app-list .download,.app-main figure .download,#divCommentPost input.button,#divSearchPanel input[type='submit']{border:1px solid #}
