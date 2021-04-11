@@ -53,8 +53,9 @@ a:hover{color:#0084ff}
 100%{background-position:-120% 0}
 }@keyframes text-background-animation{0%{background-position:20% 0}
 100%{background-position:-120% 0}
-}/*单行文本溢出省略*/
+}/*文本溢出省略*/
 .ellipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ellipsis2{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;overflow:hidden;autoprefixer:ignore next;-webkit-box-orient:vertical;}
 /*两行文本溢出省略*/
 .multi-ellipsis{position:relative;line-height:1.6em!important;height:3.2em!important;overflow:hidden}
 .multi-ellipsis:after{content:"";font-weight:700;position:absolute;bottom:0;right:0;padding-left:20px;background:-webkit-linear-gradient(left,transparent,#fff 62%);background:-o-linear-gradient(right,transparent,#fff 62%);background:-moz-linear-gradient(right,transparent,#fff 62%);background:linear-gradient(to right,transparent,#fff 62%)}
@@ -215,7 +216,7 @@ a:hover{color:#0084ff}
 .article-list .figure{width:210px;height:130px;overflow:hidden}
 .article-list .thumbnail{display:block;overflow:hidden}
 .article-list .figure img{height:130px;width:210px}
-.article-list .content{margin-left:240px;color:#888}
+.article-list .content{margin-left:230px;color:#888}
 .article-list .content .title{font-size:20px;font-weight:400}
 .article-list .content i.iconfont{padding-right:5px}
 .article-list .content2{margin-left:0px;color:#888}
@@ -775,3 +776,4 @@ a:hover,.c-title::after,.pc-nav .active,.pc-nav .sub-nav a:hover,#aside_hot .lis
 #moreinfo span.sq{background-position:2px -13px}
 #moreinfo:hover{color:#0084ff}
 .bodyart{height:auto;overflow:hidden}
+.tag-hot{position:relative;font-size:14px;width:100%;word-break:break-all}.tag-hot a{color:#0084ff;padding:10px}.tag-hot1{font-size:20px}.tag-hot2{font-size:18px}.tag-hot3{font-size:16px}.tag-hot4{font-size:14px}.tag-hot5{font-size:12px}
