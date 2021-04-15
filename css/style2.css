@@ -629,7 +629,6 @@ a.page-numbers:hover{background-color:#0084ff;color:#fff}
 .toolbar .btn:hover{opacity:1}
 /*==========responsive==========*/
 @media screen and (max-width:1200px){.s-input,.s-button{height:50px;line-height:50px;background:#fff}
-.app-list .content{width:60%;margin-left:10px;color:#888}
 .h-wrap,.header{height:60px}
 .logo-area{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);padding:5px 0 0 0}
 .logo-area .img{width:80pt}
@@ -681,7 +680,7 @@ span.toggle-btn i.iconfont{color:#eee;font-size:18px}
 #full-post .item{width:100%;margin-top:3%!important}
 .app-list{padding:1em}
 .app-list .figure{margin-left:0}
-.app-list .content{width:50%;margin-left:10px}
+.app-list .content{width:60%;margin-left:10px;color:#888}
 .app-list .download{margin-right:0;padding:0.3em .7em}
 .app-main{padding:1em}
 .app-main .head-info{position:relative}
