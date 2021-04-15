@@ -64,7 +64,6 @@ a:hover{color:#0084ff}
 /*修改不同视口下公共类属性的值*/
 @media screen and (max-width:1200px){
 .mb{margin-bottom:10px}
-.app-list .content{width:60%;margin-left:10px;color:#888}
 .m-multi-ellipsis{position:relative;line-height:1.4em!important;height:1.6em!important;overflow:hidden}
 .m-multi-ellipsis:after{content:"";font-weight:700;position:absolute;bottom:0;right:0;padding-left:20px;background:-webkit-linear-gradient(left,transparent,#fff 62%);background:-o-linear-gradient(right,transparent,#fff 62%);background:-moz-linear-gradient(right,transparent,#fff 62%);background:linear-gradient(to right,transparent,#fff 62%)}
 }/*不同视口下对html的显隐*/
@@ -630,6 +629,7 @@ a.page-numbers:hover{background-color:#0084ff;color:#fff}
 .toolbar .btn:hover{opacity:1}
 /*==========responsive==========*/
 @media screen and (max-width:1200px){.s-input,.s-button{height:50px;line-height:50px;background:#fff}
+.app-list .content{width:60%;margin-left:10px;color:#888}
 .h-wrap,.header{height:60px}
 .logo-area{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);padding:5px 0 0 0}
 .logo-area .img{width:80pt}
