@@ -370,7 +370,7 @@ ul.divTags{margin-top:-.5em}
 .table_card .tab li:last-child{border-right:none}
 .table_card .tab li:hover{height:50px;background:#fcfcfc;color:#0084ff;cursor:pointer}
 .table_card .active{height:51px !important;background:#fff !important;color:#0084ff}
-.table_card .tabCon{background:#fff;padding:11px 1.5em}
+.table_card .tabCon{background:#fff}
 .table_card .tabCon ul{display:none}
 .table_card .tabCon .on{display:block}
 .table_card .item{width:100%;padding:11px 0}
