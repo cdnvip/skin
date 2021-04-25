@@ -243,34 +243,36 @@ a:hover{color:#0084ff}
 #divTags .tag-count{font-size:12px;font-weight:100}
 #divTags li a{display:inline-block;text-align:center;padding:.2em .6em;margin:.5em .2em 0 0;border-radius:3px;opacity:1}
 ul.divTags{margin-top:-.5em}
-#divTags li:nth-child(1) a{background-color:#d9f2fb;color:#1aa9fb}
-#divTags li:nth-child(2) a{background-color:#d9fcda;color:#3ab14a}
-#divTags li:nth-child(3) a{background-color:#fff3d0;color:#f67c23}
-#divTags li:nth-child(4) a{background-color:#f8cbff;color:#a123db}
-#divTags li:nth-child(5) a{background-color:#bbf1f2;color:#04839d}
-#divTags li:nth-child(6) a{background-color:#ffdede;color:#e84f4f}
-#divTags li:nth-child(7) a{background-color:#d9fcda;color:#3ab14a}
-#divTags li:nth-child(8) a{background-color:#d9f2fb;color:#1aa9fb}
-#divTags li:nth-child(9) a{background-color:#ffdede;color:#e84f4f}
-#divTags li:nth-child(10) a{background-color:#f8cbff;color:#a123db}
-#divTags li:nth-child(11) a{background-color:#fff3d0;color:#f67c23}
-#divTags li:nth-child(12) a{background-color:#bbf1f2;color:#04839d}
-#divTags li:nth-child(13) a{background-color:#bbf1f2;color:#04839d}
-#divTags li:nth-child(14) a{background-color:#ffdede;color:#e84f4f}
-#divTags li:nth-child(15) a{background-color:#d9fcda;color:#3ab14a}
-#divTags li:nth-child(16) a{background-color:#d9f2fb;color:#1aa9fb}
-#divTags li:nth-child(18) a{background-color:#d9fcda;color:#3ab14a}
-#divTags li:nth-child(19) a{background-color:#f8cbff;color:#a123db}
-#divTags li:nth-child(20) a{background-color:#d9fcda;color:#3ab14a}
-#divTags li:nth-child(21) a{background-color:#bbf1f2;color:#04839d}
-#divTags li:nth-child(22) a{background-color:#d9fcda;color:#3ab14a}
-#divTags li:nth-child(23) a{background-color:#f8cbff;color:#a123db}
-#divTags li:nth-child(25) a{background-color:#ffdede;color:#e84f4f}
-#divTags li:nth-child(26) a{background-color:#fff3d0;color:#f67c23}
-#divTags li:nth-child(27) a{background-color:#d9fcda;color:#3ab14a}
-#divTags li:nth-child(28) a{background-color:#d9fcda;color:#3ab14a}
-#divTags li:nth-child(29) a{background-color:#d9fcda;color:#3ab14a}
-#divTags li:nth-child(30) a{background-color:#f8cbff;color:#a123db}
+#divTags li:nth-child(1) a{background-color:#FFD2D2;color:#930000}
+#divTags li:nth-child(2) a{background-color:#EBD6D6;color:#984B4B}
+#divTags li:nth-child(3) a{background-color:#FFEEDD;color:#D26900}
+#divTags li:nth-child(4) a{background-color:#FFECF5;color:#D9006C}
+#divTags li:nth-child(5) a{background-color:#DFFFDF;color:#00A600}
+#divTags li:nth-child(6) a{background-color:#F1E1FF;color:#6F00D2}
+#divTags li:nth-child(7) a{background-color:#FFFFDF;color:#8C8C00}
+#divTags li:nth-child(8) a{background-color:#E2C2DE;color:#9F4D95}
+#divTags li:nth-child(9) a{background-color:#EBD6D6;color:#984B4B}
+#divTags li:nth-child(10) a{background-color:#ACD6FF;color:#0066CC}
+#divTags li:nth-child(11) a{background-color:#bbf1f2;color:#04839d}
+#divTags li:nth-child(12) a{background-color:#E6E6F2;color:#7373B9}
+#divTags li:nth-child(13) a{background-color:#D2E9FF;color:#0066CC}
+#divTags li:nth-child(14) a{background-color:#E8FFF5;color:#01B468}
+#divTags li:nth-child(15) a{background-color:#DEDEBE;color:#949449}
+#divTags li:nth-child(16) a{background-color:#F0F0F0;color:#5B5B5B}
+#divTags li:nth-child(17) a{background-color:#ECECFF;color:#0000C6}
+#divTags li:nth-child(18) a{background-color:#f8cbff;color:#a123db}
+#divTags li:nth-child(19) a{background-color:#C4E1E1;color:#4F9D9D}
+#divTags li:nth-child(20) a{background-color:#D2E9FF;color:#005AB5}
+#divTags li:nth-child(21) a{background-color:#FFE6FF;color:#AE00AE}
+#divTags li:nth-child(22) a{background-color:#ffdede;color:#e84f4f}
+#divTags li:nth-child(23) a{background-color:#FFF8D7;color:#AE8F00}
+#divTags li:nth-child(24) a{background-color:#EFFFD7;color:#73BF00}
+#divTags li:nth-child(25) a{background-color:#ECFFFF;color:#009393}
+#divTags li:nth-child(26) a{background-color:#DFFFDF;color:#00A600}
+#divTags li:nth-child(27) a{background-color:#E8FFF5;color:#02C874}
+#divTags li:nth-child(28) a{background-color:#FFE6D9;color:#BB3D00}
+#divTags li:nth-child(29) a{background-color:#F0F0F0;color:#5B5B5B}
+#divTags li:nth-child(30) a{background-color:#ECECFF;color:#0000C6}
 #divTags li a:hover{opacity:.8!important;-webkit-transition:all ease .2s;-moz-transition:all ease .24s;-ms-transition:all ease .2s;-o-transition:all ease .2s;transition:all ease .2s}
 #divMisc li{display:inline-block;padding-right:5%}
 #divAuthors li,#divFavorites li,#divLinkage li{display:inline-block;padding-right:1em}
