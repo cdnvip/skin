@@ -56,6 +56,7 @@ a:hover{color:#0084ff}
 }/*文本溢出省略*/
 .ellipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .ellipsis2{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;overflow:hidden;autoprefixer:ignore next;-webkit-box-orient:vertical;}
+.ellipsis3{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:3;overflow:hidden;autoprefixer:ignore next;-webkit-box-orient:vertical;}
 /*两行文本溢出省略*/
 .multi-ellipsis{position:relative;line-height:1.6em!important;height:3.2em!important;overflow:hidden}
 .multi-ellipsis:after{content:"";font-weight:700;position:absolute;bottom:0;right:0;padding-left:20px;background:-webkit-linear-gradient(left,transparent,#fff 62%);background:-o-linear-gradient(right,transparent,#fff 62%);background:-moz-linear-gradient(right,transparent,#fff 62%);background:linear-gradient(to right,transparent,#fff 62%)}
@@ -768,6 +769,32 @@ ul.msg li.msgarticle{margin-left:42px;padding-top:0}
 .shoplist .shoplist_link em{ font-style: normal; text-decoration: line-through; }
 .shoplist .shoplist_gosee{ font-size:12px; position: absolute;right:10px; bottom:10px; padding:3px 8px;background: #ff6600; color: #fff; text-align: center;border-radius:10px;}
 .shoplist .shoplist_gosee a{color: #fff; text-decoration: none;}
+/*--专题详情页--*/
+.blur {-webkit-filter: blur(10px);-moz-filter: blur(10px);-ms-filter: blur(10px);filter: blur(10px);filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=20, MakeShadow=false);}
+.blur-layer {width: 100%;height: inherit;opacity: .2;}
+.topic-content .title-topic{margin-bottom: 1rem}
+.title-topic {display: inline-block;background: #f2f5f9;border-radius: 55px;height: 35px;position: relative;padding-left: 35px;padding-right: 15px;line-height: 35px;overflow: hidden;font-size:18px;}
+.title-topic .i {display: block;width: 20px;height: 20px;line-height: 20px;text-align: center;border-radius: 50%;position: absolute;left: 10px;top: 8px;overflow: hidden;background-color: #0084ff;color: #fff;font-size: 14px;}
+.topic-main figure{position:absolute;top:1.5em;left:1.5em;z-index:2;width:80px;height:80px;margin-right:15px;}
+.topic-main figure img{width:80px;height:80px;border-radius: 15px;border: rgba(255,255,255,.5);box-shadow: 1px 1px 3px #fff;}
+.topic-main .download{width:60px;height: 24px;line-height: 24px;display:block;color: #fff;background-color: #0084ff;text-align: center;border-radius: 100px;opacity:.7;}
+.topic-main .head-info{color:#999;padding-top:5px;overflow: hidden;color:#666;}
+@media screen and (max-width:1200px){
+.topic-main figure{position:absolute;top:1.5em;left:1em;z-index:2;width:70px;height:70px;margin-right:15px;}
+.topic-main figure img{width:70px;height:70px;border-radius: 15px;border: rgba(255,255,255,.5);box-shadow: 1px 1px 3px #fff;}    
+}
+.topic-main .download:hover{opacity:1;}
+.topic-main .main{position:absolute;top:1.5em;right:1.5em;width:66.6%;z-index:2;}
+.topic-main .main p{font-size:18px;width:70%;font-weight:600;color:#000;line-height:1.35}
+.topic-main .main li{width:50%;font-size:12px;}
+.topic-main .head-info{width:48%;height:120px;border-radius:10px;position:relative;z-index:1;}
+.topic-main .head-info:nth-child(even){float:right;}
+.topic-main .head-info .top{margin-top:5px;margin-bottom:5px;}
+@media screen and (max-width:1200px){
+.topic-main .head-info{width:100%;}
+.topic-main .main{top:1em;right:1em;}
+.topic-main .head-info{height:110px;}
+}
 /* 2021 */
 a:hover,.c-title::after,.pc-nav .active,.pc-nav .sub-nav a:hover,#aside_hot .list-1,#aside_hot .list-2,#aside_hot .list-3,.recommend-b .category,.full-post .read-more,.flink a.iconfont:hover,.thumbs-btn,#cancel-reply,.art-content a,#tbCalendar a,.table_card .active,.table_card .tab li:hover,.footer a:hover,.app-list .download,.commentname a,.comment-at{color:#}
 .recommend-b .category,.full-post .read-more,.thumbs-btn,.art-content .tags:hover,#divCatalog li a:hover,#divContorPanel .cp-login a:hover,#divContorPanel .cp-vrs a:hover,.app-list .download:hover,.app-list .download,.app-main figure .download,#divCommentPost input.button,#divSearchPanel input[type='submit']{border:1px solid #}
