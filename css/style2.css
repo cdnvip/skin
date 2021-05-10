@@ -770,7 +770,7 @@ ul.msg li.msgarticle{margin-left:42px;padding-top:0}
 .shoplist .shoplist_gosee{ font-size:12px; position: absolute;right:10px; bottom:10px; padding:3px 8px;background: #ff6600; color: #fff; text-align: center;border-radius:10px;}
 .shoplist .shoplist_gosee a{color: #fff; text-decoration: none;}
 /*--专题详情页--*/
-.blur {-webkit-filter: blur(10px);-moz-filter: blur(10px);-ms-filter: blur(10px);filter: blur(10px);filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=20, MakeShadow=false);}
+.blur {-webkit-filter: blur(15px);-moz-filter: blur(15px);-ms-filter: blur(15px);filter: blur(15px);filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=20, MakeShadow=false);}
 .blur-layer {width: 100%;height: inherit;opacity: .2;}
 .topic-content .title-topic{margin-bottom: 1rem}
 .title-topic {display: inline-block;background: #f2f5f9;border-radius: 55px;height: 35px;position: relative;padding-left: 35px;padding-right: 15px;line-height: 35px;overflow: hidden;font-size:18px;}
