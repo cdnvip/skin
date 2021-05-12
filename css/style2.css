@@ -796,6 +796,9 @@ ul.msg li.msgarticle{margin-left:42px;padding-top:0}
 .topic-main .head-info{width:100%;}
 .topic-main .main{top:1em;right:1em;}
 .topic-main .head-info{height:110px;}
+.zt-content{height:50px;overflow:hidden;}
+.zt-content p{animation:myMove 10s linear infinite;animation-fill-mode:forwards}
+@keyframes myMove{0%{transform:translateY(0)}100%{transform:translateY(-60px)}} 
 }
 /* 2021 */
 a:hover,.c-title::after,.pc-nav .active,.pc-nav .sub-nav a:hover,#aside_hot .list-1,#aside_hot .list-2,#aside_hot .list-3,.recommend-b .category,.full-post .read-more,.flink a.iconfont:hover,.thumbs-btn,#cancel-reply,.art-content a,#tbCalendar a,.table_card .active,.table_card .tab li:hover,.footer a:hover,.app-list .download,.commentname a,.comment-at{color:#}
